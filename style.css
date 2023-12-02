@@ -5,9 +5,10 @@
 
 #vertical-line{
     height: 70px;
-    border: 1px solid rgb(231,231,231);   
+    /* border: 1px solid rgb(231,231,231);    */
 }
 #nav-delivery>h5{
+    padding-top: 10px;
     margin: 0px;
     font-weight: 600;   
 }
@@ -15,11 +16,11 @@
     margin: 0px;
 }
 #search-div{
-    border:1px solid #eeeeee;
+    border:1px solid #dbd3d3;
     background-color: #f8f8f8;
     border-radius: 5px;
     padding-inline: 10px ;
-    width: 40vw;
+    width: 50vw;
 }
 #search-div>input{
     border: none;
@@ -64,7 +65,7 @@
 }
 
 .my-card{
-    
+    white-space: nowrap;
     width: 200px;
     padding-bottom: 0.75rem;
     display: inline-block !important;
@@ -179,7 +180,7 @@ td{
     text-align: justify;
     color: #6a6a6a;
 }
- @media screen and (max-width:768px) {
+ @media screen and (max-width:300px) {
     nav{
         flex-direction: column;
         padding: 10px;
